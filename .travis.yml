@@ -1,0 +1,6 @@
+language: java
+
+addons:
+  sauce_connect: true
+
+script: mvn test
