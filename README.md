@@ -1,4 +1,5 @@
 [![Sauce Test Status](https://saucelabs.com/buildstatus/dan-brown)](https://saucelabs.com/u/dan-brown)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/dan-brown.svg)](https://saucelabs.com/u/dan-brown)
 
 # Sauce-Labs-Tutorial
 
