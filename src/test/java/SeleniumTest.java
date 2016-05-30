@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -37,7 +38,7 @@ public class SeleniumTest {
     @Test
     public void testSauceWikiLogoExists() {
         driver.get("https://wiki.saucelabs.com/");
-        driver.findElement(By.id("logo"));
-        Assert.assertTrue(true);
+        WebElement logo = driver.findElement(By.id("logo"));
+        Assert.assertNotNull(logo);
     }
 }
